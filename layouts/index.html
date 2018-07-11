@@ -7,7 +7,7 @@
   {{ range .Paginator.Pages }}
     <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</span>
+        <span class="post-date">{{ .Site.Params.DateForm | default "2006-01-02" | .Date.Format }}</span>
         {{ .Content }}
     </div>
   {{ end }}
@@ -15,15 +15,15 @@
 
 <div class="pagination">
   {{ if $paginator.HasNext }}
-  <a class="pagination-item older" href="{{ $paginator.Next.URL }}">Older</a>
+  <a class="pagination-item older" href="{{ $paginator.Next.URL }}">-</a>
   {{ else }}
-  <span class="pagination-item older">Older</span>
+  <span class="pagination-item older">-</span>
   {{ end }}
 
   {{ if $paginator.HasPrev }}
-  <a class="pagination-item newer" href="{{ $paginator.Prev.URL }}">Newer</a>
+  <a class="pagination-item newer" href="{{ $paginator.Prev.URL }}">+</a>
   {{ else }}
-  <span class="pagination-item newer">Newer</span>
+  <span class="pagination-item newer">+</span>
   {{ end }}
 </div>
 

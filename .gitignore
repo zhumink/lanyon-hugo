@@ -1,3 +1,7 @@
 jekyll/**
 public/**
 hugout/**
+
+
+# OSX
+.DS_Store
