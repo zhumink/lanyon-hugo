@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Crimson Text", serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
-  background-color: #717EC3;
+  background-color: #5B5F97;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
@@ -236,7 +236,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
-  background-color: #555;
+  background-color: #5B5F97;
 }
 
 .sidebar-toggle:active:before,
