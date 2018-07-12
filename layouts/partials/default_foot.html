@@ -3,17 +3,5 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <!-- add Netlify Identity script -->
-  <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
   </body>
 </html>
