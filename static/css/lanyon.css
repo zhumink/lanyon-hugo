@@ -55,7 +55,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   /* font-family: "Source Sans Pro", sans-serif; */
   font-family: "Lato", sans-serif;
-  /font-weight: 900;
+  font-weight: 900;
   color: #D6CB43;
   letter-spacing: -.025rem;
 }
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #9a9a9a;
 }
 .masthead-title {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 900;
   font-size: 150%;
   margin-top: 0;
