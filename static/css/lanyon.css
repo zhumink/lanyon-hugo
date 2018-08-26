@@ -35,36 +35,31 @@
  */
 
 /* Prevent scroll on narrow devices */
+@font-face {
+  font-family 'Joanna', serif';
+  src: url("../fonts/MJoanna.eot");
+  src: url("../fonts/MJoanna.eot?#iefix") format("embedded-opentype"), url("../fonts/MJoanna.woff2") format("woff2"), url("../fonts/MJoanna.woff") format("woff"), url("../fonts/MJoanna.ttf") format("truetype"),
+}
+
 html,
 body {
   overflow-x: hidden;
 }
 
 html {
-  font-family: "Crimson Text", serif;
+  font-family: "Joanna", serif;
+  /* Crimson Text font
+  /* font-family: "Crimson Text", serif; */
 }
 
 h1, h2, h3, h4, h5, h6 {
   /* font-family: "Source Sans Pro", sans-serif; */
   font-family: "Lato", sans-serif;
-  font-weight: 900;
+  /font-weight: 900;
   color: #D6CB43;
   letter-spacing: -.025rem;
 }
-@font-face{
-  font-family: 'Nacho';
-  src:url("..fonts/nacho.eot");
-  src:url("..fonts/nacho.eot?iefix") format("embedded-opentype");
-  font-style: normal;
-  font-weight: 400;
-}
-/* add new font
 
-@font-face {
-  font-family: "Cheese";
-  src: url();("../font/cheese.tff")
-}
-*/
 
 /*
  * Wrapper
@@ -113,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #9a9a9a;
 }
 .masthead-title {
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif;
   font-weight: 900;
   font-size: 150%;
   margin-top: 0;
@@ -124,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #D6CB43;
 }
 .masthead-title small {
-  font-family: "Crimson Text", serif;
+  font-family: "Joanna", serif;
   font-size: 70%;
   font-weight: 400;
   color: #9B9B9B;
