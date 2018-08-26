@@ -5,6 +5,8 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+{{ partial "seo_schema" . }}
+
   <title>
     {{ if eq .URL "/" }}
       {{ .Site.Params.Title }} &middot; {{ .Site.Params.Tagline }}
@@ -18,7 +20,7 @@
   <link rel="stylesheet" href="/css/syntax.css">
   <link rel="stylesheet" href="/css/lanyon.css">
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"> -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro:400,600|Archivo+Black">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro:400,600|Archivo+Black|Lato">
   <!-- Icons -->
   <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png"> -->
   <link rel="shortcut icon" href="/assets/favicon.ico">

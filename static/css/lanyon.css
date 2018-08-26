@@ -45,12 +45,26 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 500;
-  color: #313131;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #D6CB43;
   letter-spacing: -.025rem;
 }
+@font-face{
+  font-family: 'Nacho';
+  src:url("..fonts/nacho.eot");
+  src:url("..fonts/nacho.eot?iefix") format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+/* add new font
 
+@font-face {
+  font-family: "Cheese";
+  src: url();("../font/cheese.tff")
+}
+*/
 
 /*
  * Wrapper
@@ -96,21 +110,23 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
   border-bottom: 1px solid #9a9a9a;
 }
 .masthead-title {
+  font-family: "Nacho", Helvetica, sans-serif;
+  font-size: 200%;
   margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
+  margin-bottom: 1.5rem;
+
 }
 .masthead-title a {
-  color: #505050;
+  color: #D6CB43;
 }
 .masthead-title small {
-  font-size: 100%;
+  font-family: "Crimson Text", serif;
+  font-size: 70%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #9B9B9B;
   letter-spacing: 0;
 }
 
@@ -151,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Crimson Text", serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
-  background-color: #5B5F97;
+  background-color: #D6CB43;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
@@ -164,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  color: #fff;
+  color: #696767;
 }
 .sidebar-item {
   padding: 1rem;
@@ -235,8 +251,8 @@ a.sidebar-nav-item:focus {
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #fff;
-  background-color: #5B5F97;
+  color: #D6CB43;
+  background-color: #D6CB43;
 }
 
 .sidebar-toggle:active:before,
@@ -314,7 +330,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #D6CB43;
 }
 .page-title,
 .post-title {
@@ -323,6 +339,8 @@ a.sidebar-nav-item:focus {
 
 /* Meta data line below post title */
 .post-date {
+  font-family: "Lato", sans-serif;
+  font-size: 75%;
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;

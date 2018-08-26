@@ -5,7 +5,7 @@
 
     "builddrafts": false,
 
-    "baseurl": "http://tummychow.github.io/lanyon-hugo/",
+    "baseurl": "https://tktk.sh",
     "canonifyurls": true,
     "permalinks": {
         "post": ":year/:month/:day/:title/",
@@ -15,7 +15,8 @@
     "pygmentsuseclasses": true,
 
     "params": {
-        "Title": "tk tk",
+        "Title": "peter kwang",
+        "Tagline": "a blog i guess",
         "Author": "Peter Kwang",
         "DateForm": "Jan 2 2006",
         "Github": {

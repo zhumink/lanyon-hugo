@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  color: #292D34;
+  color: #696767;
   background-color: #D6EFFF;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -67,7 +67,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #D6CB43;
   text-decoration: none;
 }
 a strong {
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #D6CB43;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -110,7 +110,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #696767;
 }
 
 
@@ -306,12 +306,13 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 3rem;
 }
 .masthead-title {
+  font-size: 4rem
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #376205;
 }
 .masthead-title a {
-  color: #505050;
+  color: #376205;
 }
 .masthead-title small {
   font-size: 75%;
@@ -349,7 +350,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #c0c0c0;
 }
 
 /* Related posts */
