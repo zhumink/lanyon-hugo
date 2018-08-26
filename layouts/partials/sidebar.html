@@ -6,8 +6,8 @@
 <div class="sidebar" id="sidebar">
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post">Posts</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">home</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post">all posts</a>
 
     {{ $thisperma := .Permalink }}
     {{ range .Site.Pages.ByWeight }}
@@ -17,7 +17,7 @@
     {{ end }}
 
 
-    <span class="sidebar-nav-item">Currently on {{ .Site.Params.Github.Head }}</span>
+    <span class="sidebar-nav-item">currently on {{ .Site.Params.Github.Head }}</span>
   </nav>
 
   <div class="sidebar-item">
