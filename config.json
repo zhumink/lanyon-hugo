@@ -5,7 +5,7 @@
 
     "builddrafts": false,
 
-    "baseurl": "https://tktk.sh",
+    "baseurl": "https://peterkwang.com",
     "canonifyurls": true,
     "permalinks": {
         "post": ":year/:month/:day/:title/",
